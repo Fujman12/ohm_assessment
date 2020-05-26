@@ -183,7 +183,6 @@ def config(reset=False):
 
     if reset or not internal_config:
         internal_config = Config()
-
     return internal_config
 
 

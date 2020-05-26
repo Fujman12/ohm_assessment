@@ -16,4 +16,3 @@ def dashboard():
             'user_below_silver': current_user.is_below_tier('Silver'),
     }
     return render_template("dashboard.html", **args)
-
